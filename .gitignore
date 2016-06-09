@@ -1,0 +1,31 @@
+*.DS_STORE
+
+# External application cofigurations
+.imdone/
+.atom-build.json
+.clang_complete
+
+# Testing folder created by cmake
+Testing/
+
+# Learned database file
+facedatabase.dat
+
+# Database except bash script that downloads database
+database/**
+!database/get_database.sh
+
+# All compiled binaries and build files
+bin/**
+build/
+
+# Only keep cmakelists file of external dependencies
+ext/**
+!ext/**/CMakeLists.txt
+
+
+# Resources except bash script that downloads resources
+resources/**
+!resources/get_resources.sh
+
+doc/**
