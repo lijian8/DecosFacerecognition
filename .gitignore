@@ -20,9 +20,10 @@ bin/**
 build/
 
 # Only keep cmakelists file of external dependencies
-ext/**
-!ext/**/CMakeLists.txt
-
+ext/**/*
+!ext/gtest/CMakeLists.txt
+!ext/luastate/CMakeLists.txt
+!ext/dlib/CMakeLists.txt
 
 # Resources except bash script that downloads resources
 resources/**
