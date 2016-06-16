@@ -8,9 +8,6 @@
 # Testing folder created by cmake
 Testing/
 
-# Learned database file
-facedatabase.dat
-
 # Database except bash script that downloads database
 database/**
 !database/get_database.sh
